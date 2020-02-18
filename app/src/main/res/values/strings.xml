@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Rock Paper Scissors Lizard Spock</string>
+    <string name="play_button_description">Play button</string>
+    <string name="bot_choice_description">Bot choice view</string>
+    <string name="rock_button_description">Rock button</string>
+    <string name="paper_button_description">Paper button</string>
+    <string name="scissors_button_description">Scissors button</string>
+    <string name="lizard_button_description">Lizard button</string>
+    <string name="spock_button_description">Spock button</string>
+    <string name="rules_diagram_description">Rules diagram</string>
+    <string name="welcome_text">Welcome to\nPaper Rock Scissors Lizard Spock game.\nHave fun :)</string>
+    <string name="game_rules">Rules:</string>
+    <string name="rules_description">Scissors cuts paper\nRock crushes Lizard\nPaper covers Rock\nLizard poisons Spock\nScissors decapitate Lizard\nLizard eats Paper\nPaper disproves Spock\nSpock vaporizes Rock\nRock crushes Scissors\nSpock smashes Scissors</string>
+    <string name="player_score">You:\n</string>
+    <string name="bot_score">Bot:\n</string>
+    <string name="game_result"></string>
+    <string name="player_won">\nYOU WON :)</string>
+    <string name="bot_won">\nYOU LOSE :(</string>
+    <string name="paper_rock">Paper covers Rock</string>
+    <string name="paper_spock">Paper disproves Spock</string>
+    <string name="scissors_lizard">Scissors decapitates Lizard</string>
+    <string name="scissors_paper">Scissors cuts Paper</string>
+    <string name="rock_lizard">Rock crushes Lizard</string>
+    <string name="rock_scissors">Rock crushes Scissors</string>
+    <string name="spock_scissors">Spock smashes Scissors</string>
+    <string name="spock_rock">Spock vaporizes Rock</string>
+    <string name="lizard_spock">Lizard poisons Spock</string>
+    <string name="lizard_paper">Lizard eats Paper</string>
+    <string name="draw">Round ended in a draw\nTry again</string>
+    <string name="reset_button">reset</string>
+</resources>
