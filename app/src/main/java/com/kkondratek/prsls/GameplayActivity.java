@@ -23,7 +23,6 @@ public class GameplayActivity extends AppCompatActivity {
     private String botScoreStr;
     private String playerScoreStr;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,7 +53,6 @@ public class GameplayActivity extends AppCompatActivity {
         }
     }
 
-
     public void resetScore(View view) {
         playerScore = 0;
         playerScoreText.setText(playerScoreStr + playerScore);
@@ -63,7 +61,6 @@ public class GameplayActivity extends AppCompatActivity {
         botScoreText.setText(botScoreStr + botScore);
     }
 
-
     private int getGameScore(int playerChoice) {
         int score = 0;
 
@@ -71,9 +68,8 @@ public class GameplayActivity extends AppCompatActivity {
         int botChoice = random.nextInt(5);
 
         String gameResultText;
-        //resultText.setVisibility(View.VISIBLE);
         switch (botChoice) {
-            case 0: //rock
+            case 0: // rock
                 botChoiceView.setImageResource(R.drawable.rock_button);
                 switch (playerChoice) {
                     case R.id.paperButton:
@@ -102,7 +98,7 @@ public class GameplayActivity extends AppCompatActivity {
                         break;
                 }
                 break;
-            case 1: //paper
+            case 1: // paper
                 botChoiceView.setImageResource(R.drawable.paper_button);
                 switch (playerChoice) {
                     case R.id.rockButton:
@@ -131,7 +127,7 @@ public class GameplayActivity extends AppCompatActivity {
                         break;
                 }
                 break;
-            case 2: //scissors
+            case 2: // scissors
                 botChoiceView.setImageResource(R.drawable.scissors_button);
                 switch (playerChoice) {
                     case R.id.paperButton:
@@ -160,7 +156,7 @@ public class GameplayActivity extends AppCompatActivity {
                         break;
                 }
                 break;
-            case 3: //lizard
+            case 3: // lizard
                 botChoiceView.setImageResource(R.drawable.lizard_button);
                 switch (playerChoice) {
                     case R.id.paperButton:
@@ -189,7 +185,7 @@ public class GameplayActivity extends AppCompatActivity {
                         break;
                 }
                 break;
-            case 4: //spock
+            case 4: // spock
                 botChoiceView.setImageResource(R.drawable.spock_button);
                 switch (playerChoice) {
                     case R.id.paperButton:
